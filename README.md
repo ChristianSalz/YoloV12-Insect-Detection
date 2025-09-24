@@ -1,7 +1,7 @@
 # Installation Instructions (Mac)
 
-## 1. Install Homebrew (if not already installed)
-##
+1. Install Homebrew (if not already installed)
+
 Open Terminal and run:
 
 ```bash
@@ -59,3 +59,10 @@ https://app.roboflow.com/spohf-insect-counting/spohf-kur4x-dokg9/models
 
 9. Run the predictv12.py to test your model PS: update the path to your trained model
 
+# Installation Instructions (Windows)
+
+1. Go and buy a mac
+
+
+# Installation Instructions (Linux)
+You guys are pros, go and figure out yourself
