@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```bash
 pip install git+https://github.com/sunsmarterjie/yolov12.git
 ```
-7. Download the data from The SPoHF-Roboflow-Repo and add the Train/Valid/Test folder to your project
+7. Download the data from The SPoHF-Roboflow-Project and add the Train/Valid/Test folder to your project
 https://app.roboflow.com/spohf-insect-counting/spohf-kur4x-dokg9/models
 
 8. Use the trainTheModel.py file to train a yolo v12 model - Curreltly MPS (Appel Metal) is broken so train on a CPU
