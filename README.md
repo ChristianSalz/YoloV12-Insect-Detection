@@ -62,6 +62,7 @@ https://app.roboflow.com/spohf-insect-counting/spohf-kur4x-dokg9/models
 # Installation Instructions (Windows)
 
 1. Go and buy a mac
+2. Follow steps above
 
 
 # Installation Instructions (Linux)
