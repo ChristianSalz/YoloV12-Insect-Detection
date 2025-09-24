@@ -1,0 +1,44 @@
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore dataset folders (keep structure but no files)
+train/*
+test/*
+valid/*
+
+# Keep the folders themselves
+!train/.gitkeep
+!test/.gitkeep
+!valid/.gitkeep
+
+# Ignore YOLO training runs
+runs/
+
+# Ignore model weights (large files)
+*.pt
+
+# Ignore generated images
+generatedPictures/
+testPics/
+
+# Ignore system/IDE files
+.DS_Store
+.vscode/
+.idea/
