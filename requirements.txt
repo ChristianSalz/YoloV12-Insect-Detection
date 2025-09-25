@@ -1,4 +1,5 @@
-ultralytics
+ultralytics @ git+https://github.com/sunsmarterjie/yolov12.git
+huggingface_hub
 torch
 torchvision
 torchaudio
