@@ -47,17 +47,14 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-6.  Fork from sunsmarterjie/yolov12
 
-```bash
-pip install git+https://github.com/sunsmarterjie/yolov12.git
-```
-7. Download the data from The SPoHF-Roboflow-Project and add the Train/Valid/Test folder to your project
+6. Download the data from The SPoHF-Roboflow-Project and add the Train/Valid/Test folder to your project
 https://app.roboflow.com/spohf-insect-counting/spohf-kur4x-dokg9/models
+    - go to 'versions' (left menu), select the version, then press 'download dataset'. Copy over the content in the project directory.
 
-8. Use the trainTheModel.py file to train a yolo v12 model - Curreltly MPS (Appel Metal) is broken so train on a CPU
+7. Use the trainTheModel.py file to train a yolo v12 model - Curreltly MPS (Appel Metal) is broken so train on a CPU
 
-9. Run the predictv12.py to test your model PS: update the path to your trained model
+8. Run the predictv12.py to test your model PS: update the path to your trained model
 
 # Installation Instructions (Windows)
 
