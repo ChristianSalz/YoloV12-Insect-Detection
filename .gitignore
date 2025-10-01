@@ -19,15 +19,15 @@ __pycache__/
 *.tmp
 *.swp
 
-# Ignore dataset folders (keep structure but no files)
-train/*
-test/*
-valid/*
+# Ignore dataset folder contents (keep folder structure but not files)
+datasets/train/*
+datasets/test/*
+datasets/valid/*
 
-# Keep the folders themselves
-!train/.gitkeep
-!test/.gitkeep
-!valid/.gitkeep
+# Keep the folders themselves (and .gitkeep files inside them)
+!datasets/train/.gitkeep
+!datasets/test/.gitkeep
+!datasets/valid/.gitkeep
 
 # Ignore YOLO training runs
 runs/
