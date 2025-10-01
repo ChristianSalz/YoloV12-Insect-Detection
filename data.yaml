@@ -1,13 +1,13 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: train/images
+val: valid/images
+test: test/images
 
 nc: 1
-names: ['Syntetic-Apple']
+names: ["Insects"]
 
 roboflow:
-  workspace: annotationswithrf
-  project: synteticappledetection-umv9u
-  version: 10
+  workspace: spohf-insect-counting
+  project: spohf-kur4x-dokg9
+  version: 9
   license: CC BY 4.0
-  url: https://universe.roboflow.com/annotationswithrf/synteticappledetection-umv9u/dataset/10
+  url: https://universe.roboflow.com/spohf-insect-counting/spohf-kur4x-dokg9/dataset/9
